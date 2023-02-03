@@ -1,14 +1,15 @@
 <script setup>
 defineProps({
-  msg: {
+  title: {
     type: String,
     required: true,
+    default: 'title',
   },
 })
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ title }}</h1>
 </template>
 
 <style scoped></style>

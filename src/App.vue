@@ -1,11 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
 </script>
 
 <template>
   <header>
     <div class="container">
-      <HelloWorld msg="You did it!" />
+      <Header title="Task Tracker" />
     </div>
   </header>
 </template>
